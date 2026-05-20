@@ -1,0 +1,582 @@
+﻿@using System.Linq
+@using System.Collections.Generic
+@using CorporateTaskManagementSystem.Entities.Models
+@model List<CorporateTaskManagementSystem.Entities.Models.TaskAssignment>
+
+@{
+    ViewBag.Title = "Assigned Tasks";
+    var remarksData = ViewBag.RemarksData as Dictionary<int, string>;
+    var submittedFiles = ViewBag.SubmittedFiles as Dictionary<int, TaskStatusHistory>;
+}
+
+<style>
+    body {
+        background: #f4f1ec;
+    }
+
+    .classic-page {
+        padding: 30px 0;
+    }
+
+    .classic-header {
+        background: #ffffff;
+        border-left: 8px solid #2f7d59;
+        border-radius: 12px;
+        padding: 26px 30px;
+        margin-bottom: 24px;
+        box-shadow: 0 10px 25px rgba(80, 60, 40, 0.12);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+        .classic-header h2 {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-weight: 700;
+            color: #2f241d;
+            margin: 0;
+        }
+
+        .classic-header p {
+            color: #6b5b4f;
+            margin: 6px 0 0;
+            font-size: 15px;
+        }
+
+    .classic-create-btn {
+        background: #2f5d8c;
+        color: white;
+        border-radius: 8px;
+        padding: 10px 16px;
+        font-weight: 600;
+        text-decoration: none;
+        display: inline-block;
+        transition: 0.2s ease;
+    }
+
+        .classic-create-btn:hover {
+            background: #254a70;
+            color: white;
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+
+    .classic-card {
+        background: #ffffff;
+        border-radius: 14px;
+        border: 1px solid #e3d7c8;
+        box-shadow: 0 10px 25px rgba(80, 60, 40, 0.12);
+        overflow: hidden;
+    }
+
+    .classic-card-top {
+        background: #3b2f2f;
+        color: white;
+        padding: 18px 24px;
+        border-bottom: 4px solid #2f7d59;
+    }
+
+        .classic-card-top h4 {
+            margin: 0;
+            font-family: Georgia, 'Times New Roman', serif;
+            font-weight: 700;
+        }
+
+    .classic-card-body {
+        padding: 24px;
+    }
+
+    .classic-note {
+        background: #fbf7f1;
+        border-left: 5px solid #2f7d59;
+        color: #5f4b3b;
+        padding: 13px 16px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+
+    .classic-table {
+        margin-bottom: 0;
+        border: 1px solid #e3d7c8;
+        table-layout: fixed;
+        width: 100%;
+    }
+
+        .classic-table thead th {
+            background: #2f241d;
+            color: white;
+            border-color: #4c3a2f;
+            font-weight: 700;
+            white-space: nowrap;
+            vertical-align: middle;
+            padding: 14px 10px;
+        }
+
+        .classic-table tbody td {
+            vertical-align: middle;
+            border-color: #eadfd1;
+            color: #2f241d;
+            padding: 14px 10px;
+        }
+
+        .classic-table tbody tr:nth-child(even) {
+            background: #fbf7f1;
+        }
+
+        .classic-table tbody tr:hover {
+            background: #f1e7db;
+        }
+
+    .title-column {
+        width: 210px;
+    }
+
+    .assigned-column {
+        width: 145px;
+    }
+
+    .priority-column {
+        width: 90px;
+        text-align: center;
+    }
+
+    .status-column {
+        width: 120px;
+        text-align: center;
+    }
+
+    .date-column {
+        width: 120px;
+    }
+
+    .remarks-column {
+        width: 180px;
+    }
+
+    .file-column {
+        width: 150px;
+        text-align: center;
+    }
+
+    .action-column {
+        width: 210px;
+        text-align: center;
+    }
+
+    .classic-title {
+        font-weight: 700;
+        color: #2f241d;
+        word-break: break-word;
+    }
+
+    .classic-badge {
+        border-radius: 30px;
+        padding: 7px 12px;
+        font-size: 13px;
+        font-weight: 700;
+        display: inline-block;
+        margin-bottom: 4px;
+        white-space: nowrap;
+    }
+
+    .badge-priority {
+        background: #fff7e8;
+        color: #b9852c;
+        border: 1px solid #efd29d;
+    }
+
+    .badge-status {
+        background: #e7f2f1;
+        color: #2b7a78;
+        border: 1px solid #b8ddda;
+    }
+
+    .badge-completed {
+        background: #e7f2ec;
+        color: #2f7d59;
+        border: 1px solid #b7dcc8;
+    }
+
+    .badge-rejected {
+        background: #fff1f1;
+        color: #9b2f2f;
+        border: 1px solid #f0bcbc;
+    }
+
+    .badge-waiting {
+        background: #f1ede7;
+        color: #6b5b4f;
+        border: 1px solid #d8c8b8;
+    }
+
+    .classic-review-btn {
+        background: #2f7d59;
+        color: white;
+        border-radius: 7px;
+        padding: 7px 12px;
+        font-weight: 600;
+        text-decoration: none;
+        display: inline-block;
+        transition: 0.2s ease;
+        white-space: nowrap;
+    }
+
+        .classic-review-btn:hover {
+            background: #256345;
+            color: white;
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+
+    .classic-history-btn {
+        background: #6b5b4f;
+        color: white;
+        border-radius: 7px;
+        padding: 7px 12px;
+        font-weight: 600;
+        text-decoration: none;
+        display: inline-block;
+        transition: 0.2s ease;
+        white-space: nowrap;
+    }
+
+        .classic-history-btn:hover {
+            background: #4f4037;
+            color: white;
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+
+    .classic-delete-btn {
+        background: #9b2f2f;
+        color: white;
+        border: none;
+        border-radius: 7px;
+        padding: 7px 12px;
+        font-weight: 600;
+        transition: 0.2s ease;
+        white-space: nowrap;
+    }
+
+        .classic-delete-btn:hover {
+            background: #7e2424;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+    .classic-download-btn {
+        background: #2f7d59;
+        color: white;
+        border-radius: 7px;
+        padding: 7px 12px;
+        font-weight: 600;
+        text-decoration: none;
+        display: inline-block;
+        margin-bottom: 5px;
+        transition: 0.2s ease;
+        white-space: nowrap;
+    }
+
+        .classic-download-btn:hover {
+            background: #256345;
+            color: white;
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+
+    .file-cell-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .file-name-text {
+        color: #6b5b4f;
+        font-size: 12px;
+        font-weight: 500;
+        max-width: 140px;
+        word-break: break-word;
+        text-align: center;
+    }
+
+    .action-buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+        .action-buttons form {
+            display: inline-block;
+            margin: 0;
+        }
+
+        .action-buttons .classic-badge,
+        .action-buttons a,
+        .action-buttons button {
+            margin-bottom: 0;
+        }
+
+    .classic-back-btn {
+        background: #2f241d;
+        color: white;
+        border-radius: 8px;
+        padding: 10px 16px;
+        font-weight: 600;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 22px;
+        transition: 0.2s ease;
+    }
+
+        .classic-back-btn:hover {
+            background: #1f1813;
+            color: white;
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+
+    .remarks-text {
+        color: #5f4b3b;
+        font-weight: 500;
+        word-break: break-word;
+    }
+
+    .no-remarks {
+        color: #9a8a7a;
+        font-style: italic;
+    }
+
+    .classic-empty {
+        padding: 28px;
+        color: #6b5b4f;
+        font-weight: 600;
+        background: #fbf7f1;
+    }
+
+    .alert {
+        border-radius: 10px;
+    }
+
+    @@media (max-width: 1200px) {
+        .classic-table {
+            table-layout: auto;
+            min-width: 1200px;
+        }
+    }
+
+    @@media (max-width: 768px) {
+        .classic-header {
+            align-items: flex-start;
+        }
+
+            .classic-header h2 {
+                font-size: 28px;
+            }
+
+        .classic-card-body {
+            padding: 16px;
+        }
+    }
+</style>
+
+<div class="container classic-page">
+
+    <div class="classic-header">
+        <div>
+            <h2>Assigned Task Register</h2>
+            @*<p>Track employee progress, review submitted work, view history, and manage your assigned tasks.</p>*@
+        </div>
+
+        <a href="@Url.Action("CreateTask", "Leader")" class="classic-create-btn">
+            Create New Task
+        </a>
+    </div>
+
+    <div class="classic-card">
+
+        <div class="classic-card-top">
+            <h4>Assigned Tasks</h4>
+        </div>
+
+        <div class="classic-card-body">
+
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success">
+                    @TempData["SuccessMessage"]
+                </div>
+            }
+
+            @if (TempData["Error"] != null)
+            {
+                <div class="alert alert-danger">
+                    @TempData["Error"]
+                </div>
+            }
+
+            @*<div class="classic-note">
+                These are the tasks created and assigned by you. Submitted tasks can be reviewed from the action column.
+            </div>*@
+
+            <div class="table-responsive">
+                <table class="table classic-table">
+                    <thead>
+                        <tr>
+                            <th class="title-column">Title</th>
+                            <th class="assigned-column">Assigned To</th>
+                            <th class="priority-column">Priority</th>
+                            <th class="status-column">Status</th>
+                            <th class="date-column">Due Date</th>
+                            <th class="date-column">Assigned At</th>
+                            <th class="remarks-column">Remarks</th>
+                            <th class="file-column">Submitted File</th>
+                            <th class="action-column">Action</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @if (Model != null && Model.Any())
+                        {
+                            foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td class="title-column">
+                                        <span class="classic-title">@item.TaskItem.Title</span>
+                                    </td>
+
+                                    <td class="assigned-column">
+                                        @item.AssignedToUser.FullName
+                                    </td>
+
+                                    <td class="priority-column">
+                                        <span class="classic-badge badge-priority">
+                                            @item.TaskItem.Priority
+                                        </span>
+                                    </td>
+
+                                    <td class="status-column">
+                                        <span class="classic-badge badge-status">
+                                            @item.TaskItem.Status
+                                        </span>
+                                    </td>
+
+                                    <td class="date-column">
+                                        @(item.TaskItem.DueDate.HasValue
+                                            ? item.TaskItem.DueDate.Value.ToString("dd MMM yyyy")
+                                            : "No Due Date")
+                                    </td>
+
+                                    <td class="date-column">
+                                        @item.AssignedAt.ToString("dd MMM yyyy")
+                                    </td>
+
+                                    <td class="remarks-column">
+                                        @if (remarksData != null && remarksData.ContainsKey(item.TaskItemId))
+                                        {
+                                            <span class="remarks-text">@remarksData[item.TaskItemId]</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="no-remarks">No remarks</span>
+                                        }
+                                    </td>
+
+                                    <td class="file-column">
+                                        <div class="file-cell-content">
+                                            @if (submittedFiles != null && submittedFiles.ContainsKey(item.TaskItemId))
+                                            {
+                                                var file = submittedFiles[item.TaskItemId];
+
+                                                <a href="@Url.Content(file.SubmittedFilePath)"
+                                                   class="classic-download-btn"
+                                                   download>
+                                                    Download
+                                                </a>
+
+                                                <div class="file-name-text">
+                                                    @file.SubmittedFileName
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <span class="classic-badge badge-waiting">
+                                                    No File
+                                                </span>
+                                            }
+                                        </div>
+                                    </td>
+
+                                    <td class="action-column">
+                                        <div class="action-buttons">
+                                            @if (item.TaskItem.Status == CorporateTaskManagementSystem.Common.Enums.TaskStatus.Submitted)
+                                            {
+                                                <a href="@Url.Action("ReviewTask", "Leader", new { id = item.TaskAssignmentId })"
+                                                   class="classic-review-btn">
+                                                    Review
+                                                </a>
+                                            }
+                                            else if (item.TaskItem.Status == CorporateTaskManagementSystem.Common.Enums.TaskStatus.Completed)
+                                            {
+                                                <span class="classic-badge badge-completed">
+                                                    Completed
+                                                </span>
+                                            }
+                                            else if (item.TaskItem.Status == CorporateTaskManagementSystem.Common.Enums.TaskStatus.Rejected)
+                                            {
+                                                <span class="classic-badge badge-rejected">
+                                                    Waiting Resubmit
+                                                </span>
+                                            }
+                                            else
+                                            {
+                                                <span class="classic-badge badge-waiting">
+                                                    Waiting
+                                                </span>
+                                            }
+
+                                            <a href="@Url.Action("TaskHistory", "Leader", new { id = item.TaskAssignmentId })"
+                                               class="classic-history-btn">
+                                                History
+                                            </a>
+
+                                            @using (Html.BeginForm("DeleteTask", "Leader", new { id = item.TaskAssignmentId }, FormMethod.Post))
+                                            {
+                                                @Html.AntiForgeryToken()
+
+                                                <button type="submit"
+                                                        class="classic-delete-btn"
+                                                        onclick="return confirm('Are you sure you want to delete this task?');">
+                                                    Delete
+                                                </button>
+                                            }
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="9" class="text-center classic-empty">
+                                    No assigned tasks found.
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            <a href="@Url.Action("Index", "Leader")" class="classic-back-btn">
+                Back to Dashboard
+            </a>
+
+        </div>
+    </div>
+
+</div>

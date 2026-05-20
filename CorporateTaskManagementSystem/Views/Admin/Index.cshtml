@@ -1,0 +1,340 @@
+﻿@model CorporateTaskManagementSystem.Web.ViewModels.AdminDashboardViewModel
+
+@{
+    ViewBag.Title = "Admin Dashboard";
+}
+
+<style>
+    body {
+        background: #f4f1ec;
+    }
+
+    .classic-dashboard {
+        padding: 30px 0;
+    }
+
+    .classic-hero {
+        background: #ffffff;
+        border-left: 8px solid #8b5e34;
+        border-radius: 12px;
+        padding: 28px 32px;
+        margin-bottom: 28px;
+        box-shadow: 0 10px 25px rgba(80, 60, 40, 0.12);
+    }
+
+        .classic-hero h2 {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 38px;
+            font-weight: 700;
+            color: #2f241d;
+            margin-bottom: 8px;
+        }
+
+        .classic-hero p {
+            color: #6b5b4f;
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+
+    .classic-section-title {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-weight: 700;
+        color: #3b2f2f;
+        margin-bottom: 18px;
+    }
+
+    .classic-stat-card {
+        background: #ffffff;
+        border-radius: 14px;
+        border: 1px solid #e3d7c8;
+        box-shadow: 0 8px 20px rgba(80, 60, 40, 0.10);
+        min-height: 150px;
+        transition: all 0.25s ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+        .classic-stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 14px 30px rgba(80, 60, 40, 0.18);
+        }
+
+        .classic-stat-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 6px;
+            width: 100%;
+        }
+
+        .classic-stat-card .card-body {
+            padding: 24px;
+        }
+
+    .classic-card-title {
+        font-size: 15px;
+        font-weight: 700;
+        color: #5f4b3b;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 14px;
+    }
+
+    .classic-card-number {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 44px;
+        font-weight: 700;
+        color: #2f241d;
+        margin-bottom: 0;
+    }
+
+    .classic-icon {
+        position: absolute;
+        right: 22px;
+        bottom: 18px;
+        font-size: 34px;
+        opacity: 0.18;
+    }
+
+    .border-blue::before {
+        background: #2f5d8c;
+    }
+
+    .border-green::before {
+        background: #2f7d59;
+    }
+
+    .border-gold::before {
+        background: #b9852c;
+    }
+
+    .border-orange::before {
+        background: #c46b32;
+    }
+
+    .border-slate::before {
+        background: #5f6f76;
+    }
+
+    .border-dark::before {
+        background: #2f2f2f;
+    }
+
+    .border-teal::before {
+        background: #2b7a78;
+    }
+
+    .border-red::before {
+        background: #9b2f2f;
+    }
+
+    .classic-control-panel {
+        background: #fff;
+        border-radius: 14px;
+        border: 1px solid #e3d7c8;
+        padding: 28px;
+        box-shadow: 0 10px 25px rgba(80, 60, 40, 0.12);
+        margin-top: 18px;
+    }
+
+        .classic-control-panel h4 {
+            font-family: Georgia, 'Times New Roman', serif;
+            color: #2f241d;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .classic-control-panel p {
+            color: #6b5b4f;
+            margin-bottom: 22px;
+        }
+
+    .classic-btn {
+        border-radius: 8px;
+        padding: 11px 18px;
+        font-weight: 600;
+        margin-right: 8px;
+        margin-bottom: 8px;
+        border: none;
+        text-decoration: none;
+        display: inline-block;
+        transition: 0.2s ease;
+    }
+
+        .classic-btn:hover {
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+
+    .btn-classic-users {
+        background: #2f5d8c;
+        color: white;
+    }
+
+        .btn-classic-users:hover {
+            background: #254a70;
+            color: white;
+        }
+
+    .btn-classic-tasks {
+        background: #2b7a78;
+        color: white;
+    }
+
+        .btn-classic-tasks:hover {
+            background: #22615f;
+            color: white;
+        }
+
+    .btn-classic-trash {
+        background: #9b2f2f;
+        color: white;
+    }
+
+        .btn-classic-trash:hover {
+            background: #7e2424;
+            color: white;
+        }
+
+    .btn-classic-logout {
+        background: #2f241d;
+        color: white;
+    }
+
+        .btn-classic-logout:hover {
+            background: #1f1813;
+            color: white;
+        }
+
+    .classic-footer-line {
+        margin-top: 30px;
+        border-top: 1px solid #d8c8b8;
+    }
+</style>
+
+<div class="container classic-dashboard">
+
+    <div class="classic-hero">
+        <h2>Administrative Control Room</h2>
+        @*<p>
+            A complete overview of users, task assignments, submissions, progress, and deleted task records.
+        </p>*@
+    </div>
+
+    <h4 class="classic-section-title">System Summary</h4>
+
+    <div class="row">
+
+        <div class="col-md-3 mb-4">
+            <div class="card classic-stat-card border-blue">
+                <div class="card-body">
+                    <div class="classic-card-title">Total Users</div>
+                    <h2 class="classic-card-number">@Model.TotalUsers</h2>
+                    <div class="classic-icon">👥</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card classic-stat-card border-green">
+                <div class="card-body">
+                    <div class="classic-card-title">Active Users</div>
+                    <h2 class="classic-card-number">@Model.ActiveUsers</h2>
+                    <div class="classic-icon">✓</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card classic-stat-card border-gold">
+                <div class="card-body">
+                    <div class="classic-card-title">Assigned Tasks</div>
+                    <h2 class="classic-card-number">@Model.TotalAssignedTasks</h2>
+                    <div class="classic-icon">📌</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card classic-stat-card border-orange">
+                <div class="card-body">
+                    <div class="classic-card-title">Pending Tasks</div>
+                    <h2 class="classic-card-number">@Model.PendingTasks</h2>
+                    <div class="classic-icon">⌛</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-3 mb-4">
+            <div class="card classic-stat-card border-slate">
+                <div class="card-body">
+                    <div class="classic-card-title">In Progress</div>
+                    <h2 class="classic-card-number">@Model.InProgressTasks</h2>
+                    <div class="classic-icon">↻</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card classic-stat-card border-dark">
+                <div class="card-body">
+                    <div class="classic-card-title">Submitted</div>
+                    <h2 class="classic-card-number">@Model.SubmittedTasks</h2>
+                    <div class="classic-icon">⇧</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card classic-stat-card border-teal">
+                <div class="card-body">
+                    <div class="classic-card-title">Completed</div>
+                    <h2 class="classic-card-number">@Model.CompletedTasks</h2>
+                    <div class="classic-icon">★</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card classic-stat-card border-red">
+                <div class="card-body">
+                    <div class="classic-card-title">Rejected</div>
+                    <h2 class="classic-card-number">@Model.RejectedTasks</h2>
+                    <div class="classic-icon">!</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="classic-control-panel">
+        <h4>Management Shortcuts</h4>
+        @*<p>
+            Quickly access the important administrative sections of the task management system.
+        </p>*@
+
+        <a href="@Url.Action("Users", "Admin")" class="classic-btn btn-classic-users">
+            Manage Users
+        </a>
+
+        <a href="@Url.Action("Tasks", "Admin")" class="classic-btn btn-classic-tasks">
+            Task Overview
+        </a>
+
+        <a href="@Url.Action("DeletedTasks", "Admin")" class="classic-btn btn-classic-trash">
+            Deleted Tasks
+        </a>
+
+        <a href="@Url.Action("Logout", "Account")" class="classic-btn btn-classic-logout">
+            Logout
+        </a>
+    </div>
+
+    <div class="classic-footer-line"></div>
+
+</div>

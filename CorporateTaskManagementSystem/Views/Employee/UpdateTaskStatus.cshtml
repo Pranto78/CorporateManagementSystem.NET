@@ -1,0 +1,229 @@
+﻿@model CorporateTaskManagementSystem.Web.ViewModels.TaskStatusUpdateViewModel
+
+@{
+    ViewBag.Title = "Update Task Status";
+}
+
+<style>
+    body {
+        background: #f4f1ec;
+    }
+
+    .classic-page {
+        padding: 30px 0;
+    }
+
+    .classic-header {
+        background: #ffffff;
+        border-left: 8px solid #2b7a78;
+        border-radius: 12px;
+        padding: 26px 30px;
+        margin-bottom: 24px;
+        box-shadow: 0 10px 25px rgba(80, 60, 40, 0.12);
+    }
+
+        .classic-header h2 {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-weight: 700;
+            color: #2f241d;
+            margin: 0;
+        }
+
+        .classic-header p {
+            color: #6b5b4f;
+            margin: 6px 0 0;
+            font-size: 15px;
+        }
+
+    .classic-card {
+        background: #ffffff;
+        border-radius: 14px;
+        border: 1px solid #e3d7c8;
+        box-shadow: 0 10px 25px rgba(80, 60, 40, 0.12);
+        overflow: hidden;
+        max-width: 780px;
+        margin: 0 auto;
+    }
+
+    .classic-card-top {
+        background: #3b2f2f;
+        color: white;
+        padding: 18px 24px;
+        border-bottom: 4px solid #2b7a78;
+    }
+
+        .classic-card-top h4 {
+            margin: 0;
+            font-family: Georgia, 'Times New Roman', serif;
+            font-weight: 700;
+        }
+
+    .classic-card-body {
+        padding: 28px;
+    }
+
+    .classic-note {
+        background: #fbf7f1;
+        border-left: 5px solid #2b7a78;
+        color: #5f4b3b;
+        padding: 13px 16px;
+        border-radius: 8px;
+        margin-bottom: 22px;
+        font-weight: 500;
+    }
+
+    .classic-form-group {
+        margin-bottom: 20px;
+    }
+
+        .classic-form-group label {
+            font-weight: 700;
+            color: #3b2f2f;
+            margin-bottom: 7px;
+        }
+
+    .classic-input {
+        border: 1px solid #d8c8b8;
+        border-radius: 8px;
+        min-height: 44px;
+        box-shadow: none;
+    }
+
+        .classic-input:focus {
+            border-color: #8b5e34;
+            box-shadow: 0 0 0 0.15rem rgba(139, 94, 52, 0.18);
+        }
+
+    .classic-readonly {
+        background: #fbf7f1 !important;
+        color: #5f4b3b;
+        font-weight: 600;
+    }
+
+    textarea.classic-input {
+        resize: vertical;
+        min-height: 110px;
+    }
+
+    .classic-update-btn {
+        background: #2b7a78;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 10px 18px;
+        font-weight: 600;
+        transition: 0.2s ease;
+    }
+
+        .classic-update-btn:hover {
+            background: #22615f;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+    .classic-back-btn {
+        background: #2f241d;
+        color: white;
+        border-radius: 8px;
+        padding: 10px 18px;
+        font-weight: 600;
+        text-decoration: none;
+        display: inline-block;
+        margin-left: 6px;
+        transition: 0.2s ease;
+    }
+
+        .classic-back-btn:hover {
+            background: #1f1813;
+            color: white;
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+
+    .text-danger {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    @@media (max-width: 768px) {
+        .classic-card-body {
+            padding: 18px;
+        }
+
+        .classic-header h2 {
+            font-size: 28px;
+        }
+
+        .classic-back-btn {
+            margin-left: 0;
+            margin-top: 8px;
+        }
+    }
+</style>
+
+<div class="container classic-page">
+
+    <div class="classic-header">
+        <h2>Update Task Status</h2>
+        @*<p>Change your current task progress and add remarks for your leader.</p>*@
+    </div>
+
+    <div class="classic-card">
+
+        <div class="classic-card-top">
+            <h4>Task Status Update Form</h4>
+        </div>
+
+        <div class="classic-card-body">
+
+            @*<div class="classic-note">
+                Select the new task status carefully. Your update will be saved in the task history record.
+            </div>*@
+
+            @using (Html.BeginForm("UpdateTaskStatus", "Employee", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+
+                @Html.HiddenFor(m => m.TaskAssignmentId)
+                @Html.HiddenFor(m => m.TaskItemId)
+
+                <div class="classic-form-group">
+                    <label>Task Title</label>
+                    @Html.TextBoxFor(m => m.Title, new { @class = "form-control classic-input classic-readonly", @readonly = "readonly" })
+                </div>
+
+                <div class="classic-form-group">
+                    <label>Current Status</label>
+                    @Html.TextBoxFor(m => m.CurrentStatus, new { @class = "form-control classic-input classic-readonly", @readonly = "readonly" })
+                </div>
+
+                <div class="classic-form-group">
+                    <label>New Status</label>
+                    @Html.DropDownListFor(
+                        m => m.NewStatus,
+                        ViewBag.StatusList as List<SelectListItem>,
+                        "-- Select Status --",
+                        new { @class = "form-control classic-input" }
+                    )
+
+                    @Html.ValidationMessageFor(m => m.NewStatus, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="classic-form-group">
+                    <label>Remarks</label>
+                    @Html.TextAreaFor(m => m.Remarks, new { @class = "form-control classic-input", rows = "4", placeholder = "Write remarks if needed..." })
+                </div>
+
+                <button type="submit" class="classic-update-btn">
+                    Update Status
+                </button>
+
+                <a href="@Url.Action("MyTasks", "Employee")" class="classic-back-btn">
+                    Back
+                </a>
+            }
+
+        </div>
+    </div>
+
+</div>

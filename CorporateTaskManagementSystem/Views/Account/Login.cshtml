@@ -1,0 +1,325 @@
+﻿@model CorporateTaskManagementSystem.Web.ViewModels.LoginViewModel
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<style>
+    body {
+        background: #f4f1ec;
+    }
+
+    .login-page {
+        min-height: calc(100vh - 80px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 45px 15px;
+    }
+
+    .login-shell {
+        width: 100%;
+        max-width: 980px;
+        background: #ffffff;
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 18px 45px rgba(80, 60, 40, 0.18);
+        border: 1px solid #e3d7c8;
+        display: grid;
+        grid-template-columns: 1.05fr 0.95fr;
+    }
+
+    .login-brand-panel {
+        background: linear-gradient(135deg, #2f241d, #3b2f2f);
+        color: #ffffff;
+        padding: 45px 42px;
+        position: relative;
+        overflow: hidden;
+    }
+
+        .login-brand-panel::before {
+            content: "";
+            position: absolute;
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            background: rgba(47, 125, 89, 0.28);
+            top: -70px;
+            right: -80px;
+        }
+
+        .login-brand-panel::after {
+            content: "";
+            position: absolute;
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            background: rgba(201, 156, 91, 0.18);
+            bottom: -60px;
+            left: -50px;
+        }
+
+    .brand-content {
+        position: relative;
+        z-index: 2;
+    }
+
+    .brand-badge {
+        display: inline-block;
+        background: rgba(47, 125, 89, 0.22);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        color: #f7efe4;
+        padding: 8px 14px;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+
+    .brand-title {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 40px;
+        line-height: 1.15;
+        font-weight: 700;
+        margin-bottom: 18px;
+    }
+
+    .brand-text {
+        color: #e9ddd0;
+        font-size: 16px;
+        line-height: 1.7;
+        margin-bottom: 28px;
+    }
+
+    .brand-feature {
+        background: rgba(255, 255, 255, 0.08);
+        border-left: 4px solid #2f7d59;
+        border-radius: 10px;
+        padding: 14px 16px;
+        margin-bottom: 12px;
+        color: #f7efe4;
+        font-weight: 600;
+    }
+
+    .login-form-panel {
+        padding: 42px 38px;
+        background: #ffffff;
+    }
+
+    .login-heading {
+        margin-bottom: 28px;
+    }
+
+        .login-heading h3 {
+            font-family: Georgia, 'Times New Roman', serif;
+            color: #2f241d;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .login-heading p {
+            color: #6b5b4f;
+            margin: 0;
+            font-size: 15px;
+        }
+
+    .classic-form-group {
+        margin-bottom: 18px;
+    }
+
+    .classic-label {
+        color: #2f241d;
+        font-weight: 700;
+        margin-bottom: 7px;
+        display: block;
+    }
+
+    .classic-input {
+        border: 1px solid #d9c8b7;
+        border-radius: 9px;
+        padding: 11px 13px;
+        color: #2f241d;
+        background: #fffdf9;
+        transition: 0.2s ease;
+    }
+
+        .classic-input:focus {
+            border-color: #2f7d59;
+            box-shadow: 0 0 0 0.15rem rgba(47, 125, 89, 0.18);
+            background: #ffffff;
+        }
+
+    .remember-row {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: #5f4b3b;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+        .remember-row input {
+            cursor: pointer;
+        }
+
+    .classic-login-btn {
+        background: #2f241d;
+        color: #ffffff;
+        border: none;
+        border-radius: 9px;
+        padding: 12px 16px;
+        font-weight: 700;
+        width: 100%;
+        transition: 0.2s ease;
+    }
+
+        .classic-login-btn:hover {
+            background: #1f1813;
+            color: #ffffff;
+            transform: translateY(-2px);
+        }
+
+    .test-login-box {
+        margin-top: 24px;
+        background: #fbf7f1;
+        border: 1px solid #eadfd1;
+        border-left: 5px solid #2f7d59;
+        border-radius: 10px;
+        padding: 15px 16px;
+        color: #5f4b3b;
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+        .test-login-box strong {
+            color: #2f241d;
+        }
+
+    .text-danger {
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: 5px;
+        display: block;
+    }
+
+    .validation-summary-errors {
+        background: #fff1f1;
+        border: 1px solid #f0bcbc;
+        color: #9b2f2f;
+        border-radius: 9px;
+        padding: 10px 12px;
+        margin-bottom: 18px;
+        font-weight: 600;
+    }
+
+    @@media (max-width: 900px) {
+        .login-shell {
+            grid-template-columns: 1fr;
+        }
+
+        .login-brand-panel {
+            padding: 35px 30px;
+        }
+
+        .brand-title {
+            font-size: 32px;
+        }
+
+        .login-form-panel {
+            padding: 35px 30px;
+        }
+    }
+</style>
+
+<div class="login-page">
+    <div class="login-shell">
+
+        <div class="login-brand-panel">
+            <div class="brand-content">
+                <span class="brand-badge">Corporate Task Management</span>
+
+                <h1 class="brand-title">
+                    Welcome Back
+                </h1>
+
+                <p class="brand-text">
+                    Sign in to manage tasks, review employee progress, submit work, and monitor project activity from one organized workspace.
+                </p>
+
+                <div class="brand-feature">
+                    Admin Control Panel
+                </div>
+
+                <div class="brand-feature">
+                    Leader Task Review Desk
+                </div>
+
+                <div class="brand-feature">
+                    Employee Work Submission
+                </div>
+            </div>
+        </div>
+
+        <div class="login-form-panel">
+            <div class="login-heading">
+                <h3>Login</h3>
+                <p>Enter your account details to continue.</p>
+            </div>
+
+            <form action="/Account/Login" method="post">
+                @Html.AntiForgeryToken()
+
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                <div class="classic-form-group">
+                    <label for="Email" class="classic-label">Email Address</label>
+
+                    <input type="email"
+                           id="Email"
+                           name="Email"
+                           class="form-control classic-input"
+                           placeholder="Enter email" />
+
+                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="classic-form-group">
+                    <label for="Password" class="classic-label">Password</label>
+
+                    <input type="password"
+                           id="Password"
+                           name="Password"
+                           class="form-control classic-input"
+                           placeholder="Enter password" />
+
+                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="remember-row">
+                    <input type="checkbox"
+                           id="RememberMe"
+                           name="RememberMe"
+                           value="true" />
+
+                    <input type="hidden" name="RememberMe" value="false" />
+
+                    <label for="RememberMe" class="mb-0">
+                        Remember Me
+                    </label>
+                </div>
+
+                <button type="submit" class="classic-login-btn">
+                    Login
+                </button>
+            </form>
+
+            <div class="test-login-box">
+                <strong>Test Login:</strong><br />
+                Admin: admin@gmail.com / Admin@123<br />
+                Leader: leader@gmail.com / Leader@123<br />
+                Employee: employee@gmail.com / Employee@123
+            </div>
+        </div>
+
+    </div>
+</div>

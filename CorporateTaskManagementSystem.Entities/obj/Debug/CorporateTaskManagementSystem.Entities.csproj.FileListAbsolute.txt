@@ -1,0 +1,9 @@
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.Entities\bin\Debug\CorporateTaskManagementSystem.Entities.dll
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.Entities\bin\Debug\CorporateTaskManagementSystem.Entities.pdb
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.Entities\bin\Debug\CorporateTaskManagementSystem.Common.dll
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.Entities\bin\Debug\CorporateTaskManagementSystem.Common.pdb
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.Entities\obj\Debug\CorporateTaskManagementSystem.Entities.csproj.AssemblyReference.cache
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.Entities\obj\Debug\CorporateTaskManagementSystem.Entities.csproj.CoreCompileInputs.cache
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.Entities\obj\Debug\Corporat.A0FA7227.Up2Date
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.Entities\obj\Debug\CorporateTaskManagementSystem.Entities.dll
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.Entities\obj\Debug\CorporateTaskManagementSystem.Entities.pdb

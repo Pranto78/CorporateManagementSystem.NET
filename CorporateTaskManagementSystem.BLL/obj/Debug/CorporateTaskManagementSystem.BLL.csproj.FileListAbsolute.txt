@@ -1,0 +1,15 @@
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.BLL\bin\Debug\CorporateTaskManagementSystem.BLL.dll
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.BLL\bin\Debug\CorporateTaskManagementSystem.BLL.pdb
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.BLL\bin\Debug\CorporateTaskManagementSystem.Common.dll
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.BLL\bin\Debug\CorporateTaskManagementSystem.DAL.dll
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.BLL\bin\Debug\CorporateTaskManagementSystem.Entities.dll
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.BLL\bin\Debug\CorporateTaskManagementSystem.Common.pdb
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.BLL\bin\Debug\CorporateTaskManagementSystem.DAL.pdb
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.BLL\bin\Debug\CorporateTaskManagementSystem.DAL.dll.config
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.BLL\bin\Debug\CorporateTaskManagementSystem.Entities.pdb
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.BLL\obj\Debug\CorporateTaskManagementSystem.BLL.csproj.AssemblyReference.cache
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.BLL\obj\Debug\CorporateTaskManagementSystem.BLL.csproj.CoreCompileInputs.cache
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.BLL\obj\Debug\Corporat.925E2FFB.Up2Date
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.BLL\obj\Debug\CorporateTaskManagementSystem.BLL.dll
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.BLL\obj\Debug\CorporateTaskManagementSystem.BLL.pdb
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.BLL\bin\Debug\EntityFramework.xml

@@ -1,0 +1,303 @@
+﻿@using System.Linq
+@model List<CorporateTaskManagementSystem.Entities.Models.TaskAssignment>
+
+@{
+    ViewBag.Title = "All Tasks";
+}
+
+<style>
+    body {
+        background: #f4f1ec;
+    }
+
+    .classic-page {
+        padding: 30px 0;
+    }
+
+    .classic-header {
+        background: #ffffff;
+        border-left: 8px solid #8b5e34;
+        border-radius: 12px;
+        padding: 26px 30px;
+        margin-bottom: 24px;
+        box-shadow: 0 10px 25px rgba(80, 60, 40, 0.12);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+        .classic-header h2 {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-weight: 700;
+            color: #2f241d;
+            margin: 0;
+        }
+
+        .classic-header p {
+            color: #6b5b4f;
+            margin: 6px 0 0;
+            font-size: 15px;
+        }
+
+    .classic-back-btn {
+        background: #2f241d;
+        color: white;
+        border-radius: 8px;
+        padding: 10px 16px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: 0.2s ease;
+    }
+
+        .classic-back-btn:hover {
+            background: #1f1813;
+            color: white;
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+
+    .classic-card {
+        background: #ffffff;
+        border-radius: 14px;
+        border: 1px solid #e3d7c8;
+        box-shadow: 0 10px 25px rgba(80, 60, 40, 0.12);
+        overflow: hidden;
+    }
+
+    .classic-card-top {
+        background: #3b2f2f;
+        color: white;
+        padding: 18px 24px;
+        border-bottom: 4px solid #8b5e34;
+    }
+
+        .classic-card-top h4 {
+            margin: 0;
+            font-family: Georgia, 'Times New Roman', serif;
+            font-weight: 700;
+        }
+
+    .classic-card-body {
+        padding: 24px;
+    }
+
+    .classic-note {
+        background: #fbf7f1;
+        border-left: 5px solid #b9852c;
+        color: #5f4b3b;
+        padding: 13px 16px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+
+    .classic-table {
+        margin-bottom: 0;
+        border: 1px solid #e3d7c8;
+    }
+
+        .classic-table thead th {
+            background: #2f241d;
+            color: white;
+            border-color: #4c3a2f;
+            font-weight: 700;
+            white-space: nowrap;
+            vertical-align: middle;
+        }
+
+        .classic-table tbody td {
+            vertical-align: middle;
+            border-color: #eadfD1;
+            color: #2f241d;
+        }
+
+        .classic-table tbody tr:nth-child(even) {
+            background: #fbf7f1;
+        }
+
+        .classic-table tbody tr:hover {
+            background: #f1e7db;
+        }
+
+    .classic-badge {
+        border-radius: 30px;
+        padding: 7px 12px;
+        font-size: 13px;
+        font-weight: 700;
+        display: inline-block;
+    }
+
+    .badge-status {
+        background: #e7f2f1;
+        color: #2b7a78;
+        border: 1px solid #b8ddda;
+    }
+
+    .classic-delete-btn {
+        background: #9b2f2f;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 7px 12px;
+        font-weight: 600;
+        transition: 0.2s ease;
+    }
+
+        .classic-delete-btn:hover {
+            background: #7e2424;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+    .classic-empty {
+        padding: 28px;
+        color: #6b5b4f;
+        font-weight: 600;
+        background: #fbf7f1;
+    }
+
+    .alert {
+        border-radius: 10px;
+    }
+
+    @@media (max-width: 768px) {
+        .classic-header {
+            align-items: flex-start;
+        }
+
+            .classic-header h2 {
+                font-size: 28px;
+            }
+
+        .classic-card-body {
+            padding: 16px;
+        }
+    }
+</style>
+
+<div class="container classic-page">
+
+    <div class="classic-header">
+        <div>
+            <h2>Active Task Registry</h2>
+            @*<p>Admin can monitor and manage all currently active task assignments.</p>*@
+        </div>
+
+        <a href="@Url.Action("Index", "Admin")" class="classic-back-btn">
+            Back to Dashboard
+        </a>
+    </div>
+
+    <div class="classic-card">
+
+        <div class="classic-card-top">
+            <h4>All Active Tasks</h4>
+        </div>
+
+        <div class="classic-card-body">
+
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success">
+                    @TempData["SuccessMessage"]
+                </div>
+            }
+
+            @if (TempData["ErrorMessage"] != null)
+            {
+                <div class="alert alert-danger">
+                    @TempData["ErrorMessage"]
+                </div>
+            }
+
+            @*<div class="classic-note">
+                Admin can view task creator, assigned employee, leader, priority, current status, due date, and delete active tasks.
+            </div>*@
+
+            <div class="table-responsive">
+                <table class="table classic-table">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Created By</th>
+                            <th>Assigned To</th>
+                            <th>Assigned By</th>
+                            <th>Priority</th>
+                            <th>Status</th>
+                            <th>Due Date</th>
+                            <th>Assigned At</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @if (Model != null && Model.Any())
+                        {
+                            foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        <strong>@item.TaskItem.Title</strong>
+                                    </td>
+
+                                    <td>
+                                        @(item.TaskItem.CreatedByUser != null
+                                            ? item.TaskItem.CreatedByUser.FullName
+                                            : "N/A")
+                                    </td>
+
+                                    <td>@item.AssignedToUser.FullName</td>
+
+                                    <td>@item.AssignedByUser.FullName</td>
+
+                                    <td>
+                                        <strong>@item.TaskItem.Priority</strong>
+                                    </td>
+
+                                    <td>
+                                        <span class="classic-badge badge-status">
+                                            @item.TaskItem.Status
+                                        </span>
+                                    </td>
+
+                                    <td>
+                                        @(item.TaskItem.DueDate.HasValue
+                                            ? item.TaskItem.DueDate.Value.ToString("dd MMM yyyy")
+                                            : "No Due Date")
+                                    </td>
+
+                                    <td>@item.AssignedAt.ToString("dd MMM yyyy hh:mm tt")</td>
+
+                                    <td>
+                                        @using (Html.BeginForm("DeleteTask", "Admin", new { id = item.TaskItemId }, FormMethod.Post, new { style = "display:inline;" }))
+                                        {
+                                            @Html.AntiForgeryToken()
+
+                                            <button type="submit"
+                                                    class="classic-delete-btn"
+                                                    onclick="return confirm('Are you sure you want to delete this task?');">
+                                                Delete
+                                            </button>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="9" class="text-center classic-empty">
+                                    No active tasks found.
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+</div>

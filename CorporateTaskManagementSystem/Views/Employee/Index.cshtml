@@ -1,0 +1,249 @@
+﻿@{
+    ViewBag.Title = "Employee Dashboard";
+}
+
+<style>
+    body {
+        background: #f4f1ec;
+    }
+
+    .classic-page {
+        padding: 30px 0;
+    }
+
+    .classic-header {
+        background: #ffffff;
+        border-left: 8px solid #2b7a78;
+        border-radius: 12px;
+        padding: 28px 32px;
+        margin-bottom: 24px;
+        box-shadow: 0 10px 25px rgba(80, 60, 40, 0.12);
+    }
+
+        .classic-header h2 {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-weight: 700;
+            color: #2f241d;
+            margin: 0;
+        }
+
+        .classic-header p {
+            color: #6b5b4f;
+            margin: 8px 0 0;
+            font-size: 15px;
+        }
+
+    .welcome-name {
+        color: #2b7a78;
+        font-weight: 700;
+    }
+
+    .classic-panel {
+        background: #ffffff;
+        border-radius: 14px;
+        border: 1px solid #e3d7c8;
+        box-shadow: 0 10px 25px rgba(80, 60, 40, 0.12);
+        overflow: hidden;
+    }
+
+    .classic-panel-top {
+        background: #3b2f2f;
+        color: white;
+        padding: 18px 24px;
+        border-bottom: 4px solid #2b7a78;
+    }
+
+        .classic-panel-top h4 {
+            margin: 0;
+            font-family: Georgia, 'Times New Roman', serif;
+            font-weight: 700;
+        }
+
+    .classic-panel-body {
+        padding: 28px;
+    }
+
+    .classic-note {
+        background: #fbf7f1;
+        border-left: 5px solid #2b7a78;
+        color: #5f4b3b;
+        padding: 13px 16px;
+        border-radius: 8px;
+        margin-bottom: 24px;
+        font-weight: 500;
+    }
+
+    .employee-action-card {
+        background: #ffffff;
+        border: 1px solid #e3d7c8;
+        border-radius: 14px;
+        min-height: 210px;
+        box-shadow: 0 8px 20px rgba(80, 60, 40, 0.10);
+        transition: 0.25s ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+        .employee-action-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 14px 30px rgba(80, 60, 40, 0.18);
+        }
+
+        .employee-action-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 6px;
+            width: 100%;
+        }
+
+    .my-task-card::before {
+        background: #2f5d8c;
+    }
+
+    .submit-work-card::before {
+        background: #2b7a78;
+    }
+
+    .employee-action-card .card-body {
+        padding: 28px;
+        text-align: center;
+    }
+
+    .employee-icon {
+        font-size: 42px;
+        margin-bottom: 14px;
+        opacity: 0.85;
+    }
+
+    .employee-action-card h4 {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-weight: 700;
+        color: #2f241d;
+        margin-bottom: 10px;
+    }
+
+    .employee-action-card p {
+        color: #6b5b4f;
+        margin-bottom: 20px;
+    }
+
+    .classic-btn {
+        border-radius: 8px;
+        padding: 10px 18px;
+        font-weight: 600;
+        text-decoration: none;
+        display: inline-block;
+        transition: 0.2s ease;
+        border: none;
+    }
+
+        .classic-btn:hover {
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+
+    .btn-my-task {
+        background: #2f5d8c;
+        color: white;
+    }
+
+        .btn-my-task:hover {
+            background: #254a70;
+            color: white;
+        }
+
+    .btn-submit-work {
+        background: #2b7a78;
+        color: white;
+    }
+
+        .btn-submit-work:hover {
+            background: #22615f;
+            color: white;
+        }
+
+    .btn-logout-classic {
+        background: #9b2f2f;
+        color: white;
+        margin-top: 24px;
+    }
+
+        .btn-logout-classic:hover {
+            background: #7e2424;
+            color: white;
+        }
+
+    @@media (max-width: 768px) {
+        .classic-panel-body {
+            padding: 18px;
+        }
+
+        .classic-header h2 {
+            font-size: 28px;
+        }
+    }
+</style>
+
+<div class="container classic-page">
+
+    <div class="classic-header">
+        <h2>Employee Work Desk</h2>
+        <p>
+            Welcome, <span class="welcome-name">@Session["FullName"]</span>. You are logged in as Employee.
+        </p>
+    </div>
+
+    <div class="classic-panel">
+
+        <div class="classic-panel-top">
+            <h4>Employee Dashboard</h4>
+        </div>
+
+        <div class="classic-panel-body">
+
+            @*<div class="classic-note">
+                From here you can view assigned tasks, update progress, and submit your completed work.
+            </div>*@
+
+            <div class="row">
+
+                <div class="col-md-6 mb-4">
+                    <div class="card employee-action-card my-task-card">
+                        <div class="card-body">
+                            <div class="employee-icon">📋</div>
+                            <h4>My Tasks</h4>
+                            <p>View all tasks assigned to you and check task details.</p>
+
+                            <a href="@Url.Action("MyTasks", "Employee")" class="classic-btn btn-my-task">
+                                Open My Tasks
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="card employee-action-card submit-work-card">
+                        <div class="card-body">
+                            <div class="employee-icon">📤</div>
+                            <h4>Submit Work</h4>
+                            <p>Upload files, add remarks, and submit your task progress.</p>
+
+                            <a href="@Url.Action("SubmitWork", "Employee")" class="classic-btn btn-submit-work">
+                                Open Submit Work
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="@Url.Action("Logout", "Account")" class="classic-btn btn-logout-classic">
+                Logout
+            </a>
+
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,249 @@
+﻿@{
+    ViewBag.Title = "Leader Dashboard";
+}
+
+<style>
+    body {
+        background: #f4f1ec;
+    }
+
+    .classic-page {
+        padding: 30px 0;
+    }
+
+    .classic-header {
+        background: #ffffff;
+        border-left: 8px solid #2f7d59;
+        border-radius: 12px;
+        padding: 28px 32px;
+        margin-bottom: 24px;
+        box-shadow: 0 10px 25px rgba(80, 60, 40, 0.12);
+    }
+
+        .classic-header h2 {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-weight: 700;
+            color: #2f241d;
+            margin: 0;
+        }
+
+        .classic-header p {
+            color: #6b5b4f;
+            margin: 8px 0 0;
+            font-size: 15px;
+        }
+
+    .welcome-name {
+        color: #2f7d59;
+        font-weight: 700;
+    }
+
+    .classic-panel {
+        background: #ffffff;
+        border-radius: 14px;
+        border: 1px solid #e3d7c8;
+        box-shadow: 0 10px 25px rgba(80, 60, 40, 0.12);
+        overflow: hidden;
+    }
+
+    .classic-panel-top {
+        background: #3b2f2f;
+        color: white;
+        padding: 18px 24px;
+        border-bottom: 4px solid #2f7d59;
+    }
+
+        .classic-panel-top h4 {
+            margin: 0;
+            font-family: Georgia, 'Times New Roman', serif;
+            font-weight: 700;
+        }
+
+    .classic-panel-body {
+        padding: 28px;
+    }
+
+    .classic-note {
+        background: #fbf7f1;
+        border-left: 5px solid #2f7d59;
+        color: #5f4b3b;
+        padding: 13px 16px;
+        border-radius: 8px;
+        margin-bottom: 24px;
+        font-weight: 500;
+    }
+
+    .leader-action-card {
+        background: #ffffff;
+        border: 1px solid #e3d7c8;
+        border-radius: 14px;
+        min-height: 215px;
+        box-shadow: 0 8px 20px rgba(80, 60, 40, 0.10);
+        transition: 0.25s ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+        .leader-action-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 14px 30px rgba(80, 60, 40, 0.18);
+        }
+
+        .leader-action-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 6px;
+            width: 100%;
+        }
+
+    .create-task-card::before {
+        background: #2f5d8c;
+    }
+
+    .assigned-task-card::before {
+        background: #b9852c;
+    }
+
+    .leader-action-card .card-body {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .leader-icon {
+        font-size: 44px;
+        margin-bottom: 14px;
+        opacity: 0.85;
+    }
+
+    .leader-action-card h4 {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-weight: 700;
+        color: #2f241d;
+        margin-bottom: 10px;
+    }
+
+    .leader-action-card p {
+        color: #6b5b4f;
+        margin-bottom: 20px;
+    }
+
+    .classic-btn {
+        border-radius: 8px;
+        padding: 10px 18px;
+        font-weight: 600;
+        text-decoration: none;
+        display: inline-block;
+        transition: 0.2s ease;
+        border: none;
+    }
+
+        .classic-btn:hover {
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+
+    .btn-create-task {
+        background: #2f5d8c;
+        color: white;
+    }
+
+        .btn-create-task:hover {
+            background: #254a70;
+            color: white;
+        }
+
+    .btn-assigned-task {
+        background: #b9852c;
+        color: white;
+    }
+
+        .btn-assigned-task:hover {
+            background: #94691f;
+            color: white;
+        }
+
+    .btn-logout-classic {
+        background: #9b2f2f;
+        color: white;
+        margin-top: 24px;
+    }
+
+        .btn-logout-classic:hover {
+            background: #7e2424;
+            color: white;
+        }
+
+    @@media (max-width: 768px) {
+        .classic-panel-body {
+            padding: 18px;
+        }
+
+        .classic-header h2 {
+            font-size: 28px;
+        }
+    }
+</style>
+
+<div class="container classic-page">
+
+    <div class="classic-header">
+        <h2>Leader Work Console</h2>
+        <p>
+            Welcome, <span class="welcome-name">@Session["FullName"]</span>. You are logged in as Leader.
+        </p>
+    </div>
+
+    <div class="classic-panel">
+
+        <div class="classic-panel-top">
+            <h4>Leader Dashboard</h4>
+        </div>
+
+        <div class="classic-panel-body">
+
+            @*<div class="classic-note">
+                From here you can create tasks, assign them to employees, and track task progress.
+            </div>*@
+
+            <div class="row">
+
+                <div class="col-md-6 mb-4">
+                    <div class="card leader-action-card create-task-card">
+                        <div class="card-body">
+                            <div class="leader-icon">📝</div>
+                            <h4>Create Task</h4>
+                            <p>Create a new task and assign it to an employee under your supervision.</p>
+
+                            <a href="@Url.Action("CreateTask", "Leader")" class="classic-btn btn-create-task">
+                                Open Create Task
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="card leader-action-card assigned-task-card">
+                        <div class="card-body">
+                            <div class="leader-icon">📊</div>
+                            <h4>Assigned Tasks</h4>
+                            <p>Track employee progress, review submissions, and manage assigned tasks.</p>
+
+                            <a href="@Url.Action("AssignedTasks", "Leader")" class="classic-btn btn-assigned-task">
+                                Open Assigned Tasks
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="@Url.Action("Logout", "Account")" class="classic-btn btn-logout-classic">
+                Logout
+            </a>
+
+        </div>
+    </div>
+
+</div>

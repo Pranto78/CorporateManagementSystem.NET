@@ -1,0 +1,6 @@
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.Common\bin\Debug\CorporateTaskManagementSystem.Common.dll
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.Common\bin\Debug\CorporateTaskManagementSystem.Common.pdb
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.Common\obj\Debug\CorporateTaskManagementSystem.Common.csproj.AssemblyReference.cache
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.Common\obj\Debug\CorporateTaskManagementSystem.Common.csproj.CoreCompileInputs.cache
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.Common\obj\Debug\CorporateTaskManagementSystem.Common.dll
+C:\Users\LAP AID D\source\repos\CorporateTaskManagementSystem\CorporateTaskManagementSystem.Common\obj\Debug\CorporateTaskManagementSystem.Common.pdb

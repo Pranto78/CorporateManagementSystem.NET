@@ -1,0 +1,935 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D58B251F-4452-4AA8-9917-17643EE7CB92}|CorporateTaskManagementSystem.BLL\\CorporateTaskManagementSystem.BLL.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem.bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D58B251F-4452-4AA8-9917-17643EE7CB92}|CorporateTaskManagementSystem.BLL\\CorporateTaskManagementSystem.BLL.csproj|solutionrelative:corporatetaskmanagementsystem.bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D58B251F-4452-4AA8-9917-17643EE7CB92}|CorporateTaskManagementSystem.BLL\\CorporateTaskManagementSystem.BLL.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem.bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D58B251F-4452-4AA8-9917-17643EE7CB92}|CorporateTaskManagementSystem.BLL\\CorporateTaskManagementSystem.BLL.csproj|solutionrelative:corporatetaskmanagementsystem.bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D58B251F-4452-4AA8-9917-17643EE7CB92}|CorporateTaskManagementSystem.BLL\\CorporateTaskManagementSystem.BLL.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem.bll\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D58B251F-4452-4AA8-9917-17643EE7CB92}|CorporateTaskManagementSystem.BLL\\CorporateTaskManagementSystem.BLL.csproj|solutionrelative:corporatetaskmanagementsystem.bll\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFB97AB-3318-42A4-8294-7704E4ED82FE}|CorporateTaskManagementSystem.Entities\\CorporateTaskManagementSystem.Entities.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem.entities\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFB97AB-3318-42A4-8294-7704E4ED82FE}|CorporateTaskManagementSystem.Entities\\CorporateTaskManagementSystem.Entities.csproj|solutionrelative:corporatetaskmanagementsystem.entities\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7AE620-D284-4EBB-937C-51B9223D8499}|CorporateTaskManagementSystem.Common\\CorporateTaskManagementSystem.Common.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem.common\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7AE620-D284-4EBB-937C-51B9223D8499}|CorporateTaskManagementSystem.Common\\CorporateTaskManagementSystem.Common.csproj|solutionrelative:corporatetaskmanagementsystem.common\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7AE620-D284-4EBB-937C-51B9223D8499}|CorporateTaskManagementSystem.Common\\CorporateTaskManagementSystem.Common.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem.common\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7AE620-D284-4EBB-937C-51B9223D8499}|CorporateTaskManagementSystem.Common\\CorporateTaskManagementSystem.Common.csproj|solutionrelative:corporatetaskmanagementsystem.common\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7AE620-D284-4EBB-937C-51B9223D8499}|CorporateTaskManagementSystem.Common\\CorporateTaskManagementSystem.Common.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem.common\\enums\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7AE620-D284-4EBB-937C-51B9223D8499}|CorporateTaskManagementSystem.Common\\CorporateTaskManagementSystem.Common.csproj|solutionrelative:corporatetaskmanagementsystem.common\\enums\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7AE620-D284-4EBB-937C-51B9223D8499}|CorporateTaskManagementSystem.Common\\CorporateTaskManagementSystem.Common.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem.common\\enums\\taskpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7AE620-D284-4EBB-937C-51B9223D8499}|CorporateTaskManagementSystem.Common\\CorporateTaskManagementSystem.Common.csproj|solutionrelative:corporatetaskmanagementsystem.common\\enums\\taskpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|c:\\users\\lap aid d\\source\\repos\\corporatetaskmanagementsystem\\corporatetaskmanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C552ABF9-FC28-491F-824B-564ED1D27FE3}|CorporateTaskManagementSystem.DAL\\CorporateTaskManagementSystem.DAL.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem.dal\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C552ABF9-FC28-491F-824B-564ED1D27FE3}|CorporateTaskManagementSystem.DAL\\CorporateTaskManagementSystem.DAL.csproj|solutionrelative:corporatetaskmanagementsystem.dal\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFB97AB-3318-42A4-8294-7704E4ED82FE}|CorporateTaskManagementSystem.Entities\\CorporateTaskManagementSystem.Entities.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem.entities\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFB97AB-3318-42A4-8294-7704E4ED82FE}|CorporateTaskManagementSystem.Entities\\CorporateTaskManagementSystem.Entities.csproj|solutionrelative:corporatetaskmanagementsystem.entities\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFB97AB-3318-42A4-8294-7704E4ED82FE}|CorporateTaskManagementSystem.Entities\\CorporateTaskManagementSystem.Entities.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem.entities\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFB97AB-3318-42A4-8294-7704E4ED82FE}|CorporateTaskManagementSystem.Entities\\CorporateTaskManagementSystem.Entities.csproj|solutionrelative:corporatetaskmanagementsystem.entities\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|c:\\users\\lap aid d\\source\\repos\\corporatetaskmanagementsystem\\corporatetaskmanagementsystem\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\views\\admin\\tasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\views\\admin\\tasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\views\\admin\\deletedtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\views\\admin\\deletedtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\views\\employee\\updatetaskstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\views\\employee\\updatetaskstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\views\\employee\\taskhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\views\\employee\\taskhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\views\\employee\\submitwork.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\views\\employee\\submitwork.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\views\\employee\\mytasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\views\\employee\\mytasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\views\\leader\\assignedtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\views\\leader\\assignedtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\views\\leader\\taskhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\views\\leader\\taskhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\views\\leader\\reviewtask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\views\\leader\\reviewtask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\views\\leader\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\views\\leader\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\controllers\\leadercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\controllers\\leadercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\views\\leader\\createtask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\views\\leader\\createtask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C552ABF9-FC28-491F-824B-564ED1D27FE3}|CorporateTaskManagementSystem.DAL\\CorporateTaskManagementSystem.DAL.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem.dal\\migrations\\202605171834502_addsubmissionfilefields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C552ABF9-FC28-491F-824B-564ED1D27FE3}|CorporateTaskManagementSystem.DAL\\CorporateTaskManagementSystem.DAL.csproj|solutionrelative:corporatetaskmanagementsystem.dal\\migrations\\202605171834502_addsubmissionfilefields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFB97AB-3318-42A4-8294-7704E4ED82FE}|CorporateTaskManagementSystem.Entities\\CorporateTaskManagementSystem.Entities.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem.entities\\models\\taskstatushistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFB97AB-3318-42A4-8294-7704E4ED82FE}|CorporateTaskManagementSystem.Entities\\CorporateTaskManagementSystem.Entities.csproj|solutionrelative:corporatetaskmanagementsystem.entities\\models\\taskstatushistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\viewmodels\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\viewmodels\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C552ABF9-FC28-491F-824B-564ED1D27FE3}|CorporateTaskManagementSystem.DAL\\CorporateTaskManagementSystem.DAL.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem.dal\\migrations\\202605171731545_addsoftdeletefieldstotaskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C552ABF9-FC28-491F-824B-564ED1D27FE3}|CorporateTaskManagementSystem.DAL\\CorporateTaskManagementSystem.DAL.csproj|solutionrelative:corporatetaskmanagementsystem.dal\\migrations\\202605171731545_addsoftdeletefieldstotaskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFB97AB-3318-42A4-8294-7704E4ED82FE}|CorporateTaskManagementSystem.Entities\\CorporateTaskManagementSystem.Entities.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem.entities\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFB97AB-3318-42A4-8294-7704E4ED82FE}|CorporateTaskManagementSystem.Entities\\CorporateTaskManagementSystem.Entities.csproj|solutionrelative:corporatetaskmanagementsystem.entities\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\viewmodels\\taskreviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\viewmodels\\taskreviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\viewmodels\\taskstatusupdateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\viewmodels\\taskstatusupdateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\viewmodels\\taskcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\viewmodels\\taskcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\viewmodels\\usereditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\viewmodels\\usereditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\viewmodels\\usercreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\viewmodels\\usercreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D1CA3A-BB1D-495B-BD19-6B6DDE37F12F}|CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Web.csproj|solutionrelative:corporatetaskmanagementsystem\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C552ABF9-FC28-491F-824B-564ED1D27FE3}|CorporateTaskManagementSystem.DAL\\CorporateTaskManagementSystem.DAL.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem.dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C552ABF9-FC28-491F-824B-564ED1D27FE3}|CorporateTaskManagementSystem.DAL\\CorporateTaskManagementSystem.DAL.csproj|solutionrelative:corporatetaskmanagementsystem.dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C552ABF9-FC28-491F-824B-564ED1D27FE3}|CorporateTaskManagementSystem.DAL\\CorporateTaskManagementSystem.DAL.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem.dal\\migrations\\202605160931161_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C552ABF9-FC28-491F-824B-564ED1D27FE3}|CorporateTaskManagementSystem.DAL\\CorporateTaskManagementSystem.DAL.csproj|solutionrelative:corporatetaskmanagementsystem.dal\\migrations\\202605160931161_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFB97AB-3318-42A4-8294-7704E4ED82FE}|CorporateTaskManagementSystem.Entities\\CorporateTaskManagementSystem.Entities.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem.entities\\models\\taskcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFB97AB-3318-42A4-8294-7704E4ED82FE}|CorporateTaskManagementSystem.Entities\\CorporateTaskManagementSystem.Entities.csproj|solutionrelative:corporatetaskmanagementsystem.entities\\models\\taskcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFB97AB-3318-42A4-8294-7704E4ED82FE}|CorporateTaskManagementSystem.Entities\\CorporateTaskManagementSystem.Entities.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem.entities\\models\\taskassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFB97AB-3318-42A4-8294-7704E4ED82FE}|CorporateTaskManagementSystem.Entities\\CorporateTaskManagementSystem.Entities.csproj|solutionrelative:corporatetaskmanagementsystem.entities\\models\\taskassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFB97AB-3318-42A4-8294-7704E4ED82FE}|CorporateTaskManagementSystem.Entities\\CorporateTaskManagementSystem.Entities.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem.entities\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFB97AB-3318-42A4-8294-7704E4ED82FE}|CorporateTaskManagementSystem.Entities\\CorporateTaskManagementSystem.Entities.csproj|solutionrelative:corporatetaskmanagementsystem.entities\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7AE620-D284-4EBB-937C-51B9223D8499}|CorporateTaskManagementSystem.Common\\CorporateTaskManagementSystem.Common.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem.common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D7AE620-D284-4EBB-937C-51B9223D8499}|CorporateTaskManagementSystem.Common\\CorporateTaskManagementSystem.Common.csproj|solutionrelative:corporatetaskmanagementsystem.common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D58B251F-4452-4AA8-9917-17643EE7CB92}|CorporateTaskManagementSystem.BLL\\CorporateTaskManagementSystem.BLL.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D58B251F-4452-4AA8-9917-17643EE7CB92}|CorporateTaskManagementSystem.BLL\\CorporateTaskManagementSystem.BLL.csproj|solutionrelative:corporatetaskmanagementsystem.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C552ABF9-FC28-491F-824B-564ED1D27FE3}|CorporateTaskManagementSystem.DAL\\CorporateTaskManagementSystem.DAL.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C552ABF9-FC28-491F-824B-564ED1D27FE3}|CorporateTaskManagementSystem.DAL\\CorporateTaskManagementSystem.DAL.csproj|solutionrelative:corporatetaskmanagementsystem.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFB97AB-3318-42A4-8294-7704E4ED82FE}|CorporateTaskManagementSystem.Entities\\CorporateTaskManagementSystem.Entities.csproj|C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\corporatetaskmanagementsystem.entities\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFB97AB-3318-42A4-8294-7704E4ED82FE}|CorporateTaskManagementSystem.Entities\\CorporateTaskManagementSystem.Entities.csproj|solutionrelative:corporatetaskmanagementsystem.entities\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 31,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T09:55:32.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SubmitWork.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Employee\\SubmitWork.cshtml",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\Views\\Employee\\SubmitWork.cshtml",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Employee\\SubmitWork.cshtml",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\Views\\Employee\\SubmitWork.cshtml",
+              "ViewState": "AgIAANsAAAAAAAAAAAAAAPEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T18:37:35.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "202605171834502_AddSubmissionFileFields.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.DAL\\Migrations\\202605171834502_AddSubmissionFileFields.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem.DAL\\Migrations\\202605171834502_AddSubmissionFileFields.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.DAL\\Migrations\\202605171834502_AddSubmissionFileFields.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem.DAL\\Migrations\\202605171834502_AddSubmissionFileFields.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T18:34:56.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DeletedTasks.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Admin\\DeletedTasks.cshtml",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\Views\\Admin\\DeletedTasks.cshtml",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Admin\\DeletedTasks.cshtml",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\Views\\Admin\\DeletedTasks.cshtml",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAgwNgAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T18:10:16.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AdminDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\ViewModels\\AdminDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\ViewModels\\AdminDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\ViewModels\\AdminDashboardViewModel.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\ViewModels\\AdminDashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T18:01:14.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Tasks.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Admin\\Tasks.cshtml",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\Views\\Admin\\Tasks.cshtml",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Admin\\Tasks.cshtml",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\Views\\Admin\\Tasks.cshtml",
+              "ViewState": "AgIAANsAAAAAAAAAAAAAAOEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T17:46:39.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "202605171731545_AddSoftDeleteFieldsToTaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.DAL\\Migrations\\202605171731545_AddSoftDeleteFieldsToTaskItem.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem.DAL\\Migrations\\202605171731545_AddSoftDeleteFieldsToTaskItem.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.DAL\\Migrations\\202605171731545_AddSoftDeleteFieldsToTaskItem.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem.DAL\\Migrations\\202605171731545_AddSoftDeleteFieldsToTaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T17:32:01.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TaskHistory.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Leader\\TaskHistory.cshtml",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\Views\\Leader\\TaskHistory.cshtml",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Leader\\TaskHistory.cshtml",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\Views\\Leader\\TaskHistory.cshtml",
+              "ViewState": "AgIAANUAAAAAAAAAAAAAAN8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T16:23:20.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TaskHistory.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Employee\\TaskHistory.cshtml",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\Views\\Employee\\TaskHistory.cshtml",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Employee\\TaskHistory.cshtml",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\Views\\Employee\\TaskHistory.cshtml",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAAAMwAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T16:18:39.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ReviewTask.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Leader\\ReviewTask.cshtml",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\Views\\Leader\\ReviewTask.cshtml",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Leader\\ReviewTask.cshtml",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\Views\\Leader\\ReviewTask.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAALMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T15:56:32.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "TaskReviewViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\ViewModels\\TaskReviewViewModel.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\ViewModels\\TaskReviewViewModel.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\ViewModels\\TaskReviewViewModel.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\ViewModels\\TaskReviewViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T15:53:03.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UpdateTaskStatus.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Employee\\UpdateTaskStatus.cshtml",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\Views\\Employee\\UpdateTaskStatus.cshtml",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Employee\\UpdateTaskStatus.cshtml",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\Views\\Employee\\UpdateTaskStatus.cshtml",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAALIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T15:17:23.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "TaskStatusUpdateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\ViewModels\\TaskStatusUpdateViewModel.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\ViewModels\\TaskStatusUpdateViewModel.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\ViewModels\\TaskStatusUpdateViewModel.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\ViewModels\\TaskStatusUpdateViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T15:06:57.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MyTasks.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Employee\\MyTasks.cshtml",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\Views\\Employee\\MyTasks.cshtml",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Employee\\MyTasks.cshtml",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\Views\\Employee\\MyTasks.cshtml",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAAAAMBAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T14:58:40.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AssignedTasks.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Leader\\AssignedTasks.cshtml",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\Views\\Leader\\AssignedTasks.cshtml",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Leader\\AssignedTasks.cshtml",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\Views\\Leader\\AssignedTasks.cshtml",
+              "ViewState": "AgIAAJgBAAAAAAAAAAAAAKgBAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T14:45:35.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CreateTask.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Leader\\CreateTask.cshtml",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\Views\\Leader\\CreateTask.cshtml",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Leader\\CreateTask.cshtml",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\Views\\Leader\\CreateTask.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIBAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T14:34:27.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.BLL\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem.BLL\\Services\\TaskService.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.BLL\\Services\\TaskService.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem.BLL\\Services\\TaskService.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAYwE0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T14:32:10.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "TaskCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\ViewModels\\TaskCreateViewModel.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\ViewModels\\TaskCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\ViewModels\\TaskCreateViewModel.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\ViewModels\\TaskCreateViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T14:30:23.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EditUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Admin\\EditUser.cshtml",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\Views\\Admin\\EditUser.cshtml",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Admin\\EditUser.cshtml",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\Views\\Admin\\EditUser.cshtml",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAJgAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T18:39:00.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UserEditViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\ViewModels\\UserEditViewModel.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\ViewModels\\UserEditViewModel.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\ViewModels\\UserEditViewModel.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\ViewModels\\UserEditViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:36:36.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T18:20:53.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\Views\\Admin\\CreateUser.cshtml",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\Views\\Admin\\CreateUser.cshtml",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAALEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T18:15:43.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Admin\\Users.cshtml",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\Views\\Admin\\Users.cshtml",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Admin\\Users.cshtml",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\Views\\Admin\\Users.cshtml",
+              "ViewState": "AgIAAEEBAAAAAAAAAAAAAFgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T18:03:34.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.BLL\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem.BLL\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.BLL\\Services\\UserService.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem.BLL\\Services\\UserService.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAcwCMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:00:49.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "UserCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\ViewModels\\UserCreateViewModel.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\ViewModels\\UserCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\ViewModels\\UserCreateViewModel.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\ViewModels\\UserCreateViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T17:52:00.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T17:43:22.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAALQAAAAAAAAAAAAAAM8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T17:18:52.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Leader\\Index.cshtml",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\Views\\Leader\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Leader\\Index.cshtml",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\Views\\Leader\\Index.cshtml",
+              "ViewState": "AgIAALoAAAAAAAAAAAAAAM8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T17:18:23.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAADIBAAAAAAAAAAAAAD4BAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T17:17:46.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T17:15:33.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LeaderController.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Controllers\\LeaderController.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\Controllers\\LeaderController.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Controllers\\LeaderController.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\Controllers\\LeaderController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAqwGwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T17:14:51.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T17:14:08.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAPkAAAAAAAAAAAAAAEQBAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T17:03:30.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.BLL\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem.BLL\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.BLL\\Services\\AuthService.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem.BLL\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T16:49:03.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T16:45:40.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T16:38:45.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Common\\Helpers\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem.Common\\Helpers\\PasswordHelper.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Common\\Helpers\\PasswordHelper.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem.Common\\Helpers\\PasswordHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T16:29:42.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "202605160931161_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.DAL\\Migrations\\202605160931161_InitialCreate.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem.DAL\\Migrations\\202605160931161_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.DAL\\Migrations\\202605160931161_InitialCreate.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem.DAL\\Migrations\\202605160931161_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T09:31:31.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.DAL\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem.DAL\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.DAL\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem.DAL\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwEYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T09:30:02.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Web.config",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem\\Web.config",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem\\Web.config",
+              "RelativeToolTip": "CorporateTaskManagementSystem\\Web.config",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-05-16T08:58:35.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.DAL\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem.DAL\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.DAL\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem.DAL\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T08:57:06.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TaskStatusHistory.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Entities\\Models\\TaskStatusHistory.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem.Entities\\Models\\TaskStatusHistory.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Entities\\Models\\TaskStatusHistory.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem.Entities\\Models\\TaskStatusHistory.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwCUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T08:29:52.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Entities\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem.Entities\\Models\\Notification.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Entities\\Models\\Notification.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem.Entities\\Models\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T08:28:14.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "TaskComment.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Entities\\Models\\TaskComment.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem.Entities\\Models\\TaskComment.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Entities\\Models\\TaskComment.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem.Entities\\Models\\TaskComment.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T08:25:08.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "TaskAssignment.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Entities\\Models\\TaskAssignment.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem.Entities\\Models\\TaskAssignment.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Entities\\Models\\TaskAssignment.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem.Entities\\Models\\TaskAssignment.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T08:20:42.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Entities\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem.Entities\\Models\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Entities\\Models\\TaskItem.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem.Entities\\Models\\TaskItem.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAUwC0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T08:17:46.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Entities\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem.Entities\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Entities\\Models\\User.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem.Entities\\Models\\User.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA7wCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T08:14:26.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Entities\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem.Entities\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Entities\\Models\\Department.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem.Entities\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T08:07:33.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Entities\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem.Entities\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Entities\\Models\\Role.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem.Entities\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T08:06:27.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaskPriority.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Common\\Enums\\TaskPriority.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem.Common\\Enums\\TaskPriority.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Common\\Enums\\TaskPriority.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem.Common\\Enums\\TaskPriority.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T08:03:07.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TaskStatus.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Common\\Enums\\TaskStatus.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem.Common\\Enums\\TaskStatus.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Common\\Enums\\TaskStatus.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem.Common\\Enums\\TaskStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T08:02:24.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Common\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem.Common\\Enums\\UserRole.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Common\\Enums\\UserRole.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem.Common\\Enums\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T07:59:14.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Common\\Class1.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem.Common\\Class1.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Common\\Class1.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem.Common\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T07:18:11.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.BLL\\Class1.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem.BLL\\Class1.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.BLL\\Class1.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem.BLL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T07:17:37.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.DAL\\Class1.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem.DAL\\Class1.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.DAL\\Class1.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem.DAL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T07:17:07.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Entities\\Class1.cs",
+              "RelativeDocumentMoniker": "CorporateTaskManagementSystem.Entities\\Class1.cs",
+              "ToolTip": "C:\\Users\\LAP AID D\\source\\repos\\CorporateTaskManagementSystem\\CorporateTaskManagementSystem.Entities\\Class1.cs",
+              "RelativeToolTip": "CorporateTaskManagementSystem.Entities\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T07:16:20.376Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
